@@ -48,5 +48,56 @@
             "curl",
             "http client"
         ]
+    },
+    {
+        "name": "symfony/stopwatch",
+        "version": "v2.7.7",
+        "version_normalized": "2.7.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/stopwatch.git",
+            "reference": "9fa59908b0c5575980a1623723a5b5cb38e0a04a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/stopwatch/zipball/9fa59908b0c5575980a1623723a5b5cb38e0a04a",
+            "reference": "9fa59908b0c5575980a1623723a5b5cb38e0a04a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.9"
+        },
+        "time": "2015-10-30 20:10:21",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.7-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Stopwatch\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Stopwatch Component",
+        "homepage": "https://symfony.com"
     }
 ]
