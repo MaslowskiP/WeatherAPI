@@ -6,7 +6,8 @@
   	"require": {
       		"php": ">=5.3.3",
 		"kriswallsmith/buzz": "v0.15",
-  	  	"symfony/stopwatch": "^2.7"
+  	  	"symfony/stopwatch": "^2.7",
+  	  	"symfony/filesystem": "^2.7"
 		
   	}
 }

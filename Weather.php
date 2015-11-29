@@ -3,7 +3,7 @@
 include_once 'vendor/autoload.php';
 
 use Pmas\Component\Weather\Api\OpenWeatherClient;
-
+use Symfony\Component\Stopwatch\Stopwatch;
 
 $browser = new Buzz\Browser();
 $stoper = new Stopwatch();
